@@ -1,0 +1,24 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Prueba técnica backend QuadMinds",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js --exec babel-node -e js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ricardo Palma",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "dotenv": "^7.0.0",
+        "express": "^4.16.4",
+        "mongoose": "^5.4.20"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "nodemon": "^1.18.10"
+    }
+}
